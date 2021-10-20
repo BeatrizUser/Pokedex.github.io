@@ -33,6 +33,7 @@ body{
 .labelinput{
     color: rgb(255, 255, 255);
     margin-right: 10px;
+    font-family: "Viga", sans-serif;
 }
 #inputname{
     height: 25px;
@@ -73,11 +74,12 @@ h2{
     align-items: flex-start;
     align-content: flex-start;
     flex-direction: column;
-    text-transform: capitalize;    
+    text-transform: capitalize;
+    font-family: "Viga", sans-serif;   
 }
 #poketipo{
     font-size: 8px;
-    margin-top: 90px;
+    margin-top: 85px;
     margin-left: -100px;
     margin-right: 130px;
     z-index: 10;
@@ -88,4 +90,5 @@ h2{
     align-content: flex-start;
     flex-direction: column;
     text-transform: capitalize;
+    font-family: "Viga", sans-serif;
 }
