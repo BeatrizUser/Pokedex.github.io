@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/axios@0.23.0/dist/axios.min.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- scripts -->
+    <script src="./script.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="filter container">
+        <div class="pokedex">
+            <div style="
+            display: flex;flex-direction: row; align-content: center; justify-content: center;align-items: center;">
+                <label class="labelinput">Nome:</label>
+                <input id="inputname" type="text">
+                <button class="pokebutton" onclick="MostrarPokemon()">Vai!</button>
+            </div>
+            <div id="pokecard">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
